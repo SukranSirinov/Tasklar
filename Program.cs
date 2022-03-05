@@ -16,3 +16,4 @@ else
 {
     Console.WriteLine("2 nin quvveti deyil");
 }
+// Son
