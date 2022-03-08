@@ -1,0 +1,24 @@
+using System;
+namespace word
+{
+    class Program
+    {
+        // main funksiyasini silmisen abi ?
+        static void Main()
+        {
+            Console.WriteLine(Sum(4, 5, 8, 1, 2));
+        }
+        static int Sum(params int[] numbers)
+        {
+            int total = 0;
+            int i = 0;
+            while (i < numbers.Length)
+            {
+                total += numbers[i];
+                i++;
+            }
+            return total;
+        } 
+        
+    }
+}
