@@ -3,7 +3,6 @@ namespace word
 {
     class Program
     {
-        // main funksiyasini silmisen abi ?
         static void Main()
         {
             Console.WriteLine(Sum(4, 5, 8, 1, 2));
