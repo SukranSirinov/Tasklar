@@ -1,0 +1,25 @@
+
+namespace Consoleap
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] arr = { 1, 5 };
+           
+            
+
+            foreach (var item in Newarr(ref arr ,9))
+            {
+                Console.WriteLine(item);
+
+            }
+           static int[]  Newarr(ref int[] arr,int a)
+            {
+                arr=arr+int a;
+            } return  arr;
+        }   
+       
+    }
+}
+         
